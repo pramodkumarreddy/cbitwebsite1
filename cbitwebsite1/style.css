@@ -1,0 +1,311 @@
+@charset "utf-8";
+body { margin:0; padding:0; width:100%; min-height:100%; background:url('images/image5.jpeg'); color:#5f5f5f; font:normal 12px/1.8em Arial, Helvetica, sans-serif;}
+html{ padding:0; margin:0;}
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+h1 { margin:0; padding:24px 0 24px 40px; color:#5f5f5f; font:bold 40px/1.2em Arial, Helvetica, sans-serif;}
+h1 a, h1 a:hover { color:#5f5f5f; text-decoration:none;}
+h1 span { color:#03a5d1;}
+h1 small { padding-left:86px; font:normal 13px/1.2em Arial, Helvetica, sans-serif;}
+h2 { font:bold 24px Verdana, Geneva, sans-serif; color:#323a3f; padding:8px 0; margin:8px 0;}
+h3 { font:bold 16px Verdana, Geneva, sans-serif; color:#323a3f; padding:8px 0; margin:8px 0;}
+p { margin:8px 0; padding:0 0 8px 0; font:normal 12px/1.8em Arial, Helvetica, sans-serif;}
+a { color:#03a5d1; text-decoration:none;}
+a:hover { text-decoration:underline;}
+
+.main {background:url('images/image5.jpeg'); margin:0; padding: 0px 0 20px 0;}
+.header, .hbg, .content, .fbg, .footer { margin:0; padding:0; }
+.content_resize { margin:0 auto; padding:25px 25px 25px 25px; width:1050px; background-color:#fff; border:0px solid #d7d7d7;}
+.fbg_resize { margin:0 auto; padding:0px 0px 0px 0px; width:1050px; background-color:#fff; border:0px solid #d7d7d7;}
+/* header */
+.header { padding-top:0px}
+.header_resize { margin:0 auto; padding:0; width:1100px;}
+.header .logo { width:auto; height:50px;}
+.aboveMenu{ margin: 0px 0px 0px 0px; height:100px; width:1100px; background:#8A2BE2; }
+.aboveMenu img.cbitlogo{float:left; height:100px; width:100px; padding:0px 0px 0px 0px;}
+
+.aboveMenu div.title{ margin: 0px 0px 0px 0px; text-align: center; font:bold 40px/1.8em Arial, Helvetica, sans-serif; color:lime;}
+
+
+/* hbg */
+.hbg { padding:0; padding-top:0px; padding-bottom:0px;}
+.hbg_resize { margin:0 auto; width:1098px; padding:0 0 0 0; border-left:1px solid #fff; border-bottom:1px solid #fff; border-right:1px solid #fff; height:160px; background:#fff url(images/iitk_topview.jpg) no-repeat top left;}
+.hbg_resize img.readmore { float:right; padding-top:32px;}
+
+/* content */
+.content { padding:0px 0 2px 0;}
+.content_resize { border-top:none;  min-height:600px;}
+.content .mainbar { margin:0; padding: 0 0 0 25px; float:right; width:775px;}
+.content .mainbar .article h2 {padding-bottom:5px; width:100%; border-bottom: 1px solid #dedede;}
+.content .mainbar .article, .content .sidebar .gadget { margin:0; padding:0 0 10px 0;}
+.content .sidebar { margin:0; padding:0 0 0 0px; float:left; width:250px; border:0px groove #021a40; text-align:left;}
+.content .sidebar .side-acc {background-color:#D5D6DA;}
+.content .sidebar .side-acc  h2.star {margin:0px; padding:10px 0 10px 10px; background:#4A5155; color:#f2f2f2;}
+.content .sidebar .side-acc  h2.star:hover{cursor:pointer;}
+
+.content .sidebar .for ul{ list-style: none; margin:0; padding:0px;}
+.content .sidebar .for ul li {  margin:10px 0px 10px 0px; color:#f2f2f2;}
+.content .sidebar .for ul li h2 {color:#f2f2f2; background:#4A5155; padding:32px 25px 32px 25px;}
+
+
+ul.sb_menu, ul.ex_menu { margin:0; padding:0px 10px 0px 15px; list-style:none;}
+ul.sb_menu li, ul.ex_menu li { margin:0; background:url(images/li.gif) no-repeat 0 12px;}
+ul.sb_menu li { padding:2px 0 2px 12px;}
+ul.ex_menu li { padding:2px 0 2px 12px;}
+ul.sb_menu li a, ul.ex_menu li a { color:#5f5f5f; text-decoration:none; font:normal 13px/1.8em Arial, Helvetica, sans-serif;}
+ul.sb_menu li a:hover, ul.ex_menu li a:hover { color:#03a5d1;}
+ul.sb_menu li a:hover { text-decoration:none;}
+ul.ex_menu li a:hover { text-decoration:none;}
+
+/* subpages */
+.content .mainbar .comment { margin:0; padding:16px 0 0 0;}
+.content .mainbar .comment img.userpic { border:1px solid #dedede; margin:10px 16px 0 0; padding:0; float:left;}
+
+/* fbg */
+.fbg { margin:0; padding:0; }
+.fbg_resize { };
+.fbg_resize img { border:1px solid #dedede;}
+.fbg_resize .col { margin:0; float:right;}
+.fbg_resize .c1 { padding:0 0 0 16px; width:290px;}
+.fbg_resize .c2 { padding:0 16px; width:290px;}
+.fbg_resize .c3 { padding:0 16px 0 0; width:240px;}
+.fbg_resize .c1 img { margin:8px 16px 16px 0; padding:0; float:left;}
+.fbg_resize .c3 img { margin:4px; padding:0;}
+
+/* footer */
+.footer { margin:0; padding:0; position:absolute; top:600px; left:150px;}
+.footer_resize { margin:0 auto; padding:8px 25px 8px 25px; width:1050px; background:url(img2/main-bg.png) repeat;}
+.footer_resize p.lf { float:right; width:auto;}
+ul.fmenu { margin:0px; padding:0; list-style:none; float:left; width:auto;}
+ul.fmenu li { margin:0; padding:0 0px; float:left;}
+ul.fmenu li a { color:#5f5f5f; text-decoration:none;}
+ul.fmenu li a:hover, ul.fmenu li.active a { color:#03a5d1;}
+ul.fmenu li a:hover { text-decoration:underline;}
+
+
+
+
+.arrowlistmenu{
+position:relative;
+left:130px;
+top:10px;
+
+width: 180px; /*width of accordion menu*/
+
+}
+
+
+
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+
+font: bold 14px Arial;
+
+color: green;
+
+background: black url(titlebar.png) repeat-x center left;
+
+margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+
+text-transform: uppercase;
+
+padding: 4px 0 4px 10px; /*header text is indented 10px*/
+
+cursor: hand;
+
+cursor: pointer;
+
+}
+
+
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+
+background-image: url(titlebar-active.png);
+
+}
+
+
+
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+
+list-style-type: none;
+
+margin: 0;
+
+padding: 0;
+
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+
+}
+
+
+
+.arrowlistmenu ul li{
+
+padding-bottom: 2px; /*bottom spacing between menu items*/
+
+
+}
+
+
+
+.arrowlistmenu ul li .opensubheader{ /*Open state CSS for sub menu header*/
+
+background: lightblue !important;
+
+}
+
+
+
+.arrowlistmenu ul li .closedsubheader{ /*Closed state CSS for sub menu header*/
+
+background: lightgreen !important;
+
+}
+
+
+
+.arrowlistmenu ul li a{
+
+color: #A70303;
+
+background: url(arrowbullet.png) no-repeat center left; /*custom bullet list image*/
+
+display: block;
+background-color:orange;
+padding: 2px 0;
+
+padding-left: 19px; /*link text is indented 19px*/
+
+text-decoration: none;
+
+font-weight: bold;
+
+border-bottom: 1px solid #dadada;
+
+font-size: 90%;
+
+}
+
+
+
+.arrowlistmenu ul li a:visited{
+
+color: #A70303;
+
+}
+
+
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+
+background-color: #F3F3F3;
+
+}
+
+
+
+.arrowlistmenu ul li a.subexpandable:hover{ /*hover state CSS for sub menu header*/
+
+background: lightblue;
+
+}
+
+
+
+.newsScroller {
+
+
+    height: 200px; 
+
+    width: 200px; 
+
+
+    overflow: hidden;
+
+    font: 10px/15px Verdana,Arial,sans-serif;
+
+    color: #333;
+
+   /* border: 1px solid #999;*/
+
+}
+#newsScroll{
+width:230px;
+height:230px;
+background-color:#8B4513;
+position:absolute;
+
+top:180px;
+left:1010px;
+}
+.newsScroller ul {
+
+    margin: 0;
+
+    padding: 4px;
+
+}
+
+.newsScroller li {
+
+    list-style-type: none;
+
+    margin: 0 0 16px 0;
+color: #FFFACD;
+    padding:5;
+
+}
+
+.newsScroller a.title {
+
+    display: block;
+
+    font-weight: bold;
+
+    text-transform:uppercase;
+
+    text-decoration: none;
+
+}
+
+.newsScroller a.title, .newsScroller a.title:visited, .newsScroller a.title:hover { 
+
+    color: #000080;
+
+}
+
+.newsScroller a.title:hover
+
+{
+
+    text-decoration: underline; 
+
+}
+
+.slider{
+
+position:absolute;
+left:320px;
+top:170px;
+
+}
+.abovenewsscroll{
+
+position:absolute;
+left:1010px;
+top:160px;
+color:red;
+
+}
+#logoscroll{
+
+position:absolute;
+left:150px;
+top:500px;
+background-color:white;
+display:block;
+width:1100px;
+height:100px;
+
+
+}
